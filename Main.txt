@@ -2,11 +2,11 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-		
+		final static int MAX = 100;
 		
 		Liste l1 = new Liste(); 
 		
-		Client c1 = new Client("Thomas", "Tremblay", "1027 rue 2", 137);
+		Client c1 = new Client("Thomas", "Tremblay", "1027 rue 2", MAX);
 		l1.rajouterClient(c1);
 		
 		Client c2 = new Client("Noah", "Gagné", "520 rue 4", 469);
